@@ -1,4 +1,4 @@
-import 'package:cauculator/screens/cauculator.dart';
+import 'package:calculator/screens/calculator.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(Cauculator());
+void main() => runApp(Calculator());

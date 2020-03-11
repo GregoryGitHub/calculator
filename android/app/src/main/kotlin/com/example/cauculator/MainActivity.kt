@@ -1,4 +1,4 @@
-package com.example.cauculator
+package com.example.calculator
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

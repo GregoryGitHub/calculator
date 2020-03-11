@@ -45,7 +45,7 @@ class Memory {
       _bufferIndex = 1;
       }
     }else {
-      _buffer[0] = _cauculate();
+      _buffer[0] = _calculate();
       _buffer[1] = 0.0;
       _value = _buffer[0].toString();
       _value = _value.endsWith('.0') ? _value.split('.')[0] : _value;
@@ -70,7 +70,7 @@ class Memory {
     _wipeValue = false;
   }
 
-   _cauculate(){
+   _calculate(){
     switch(_operation){
       case '%' : return _buffer[0] % _buffer[1];
       case '-' : return _buffer[0] - _buffer[1];

@@ -1,5 +1,5 @@
-import 'package:cauculator/components/button.dart';
-import 'package:cauculator/components/button_row.dart';
+import 'package:calculator/components/button.dart';
+import 'package:calculator/components/button_row.dart';
 import 'package:flutter/material.dart';
 
 class Keyboard extends StatelessWidget {

@@ -1,15 +1,15 @@
-import 'package:cauculator/components/display.dart';
-import 'package:cauculator/components/keyboard.dart';
-import 'package:cauculator/models/memory.dart';
+import 'package:calculator/components/display.dart';
+import 'package:calculator/components/keyboard.dart';
+import 'package:calculator/models/memory.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Cauculator extends StatefulWidget {
+class Calculator extends StatefulWidget {
   @override
-  _CauculatorState createState() => _CauculatorState();
+  _CalculatorState createState() => _CalculatorState();
 }
 
-class _CauculatorState extends State<Cauculator> {
+class _CalculatorState extends State<Calculator> {
   final Memory memory = Memory();
   _onPressed(String command){
     setState(() {

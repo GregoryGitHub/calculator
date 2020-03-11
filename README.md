@@ -1,4 +1,4 @@
-# cauculator
+# caLculator
 
 A new Flutter project.
 
